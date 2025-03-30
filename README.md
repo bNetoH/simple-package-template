@@ -16,12 +16,16 @@ pip install calculadora_test_pypi
 ## Usage
 
 ```python
-from calculadora import operacao
+from calculadora_test_pypi import operacao
 operacao.somar(a, b)
 operacao.subtrair(a, b)
 operacao.multiplicar(a, b)
 operacao.dividir(a, b)
 ```
+
+![print screen](calc-test-pypi-operacoes.png "calc-test-pypi-operacoes.png")
+
+![print screen](calc-test-pypi-published.png "calc-test-pypi-published.png")
 
 ## Author
 

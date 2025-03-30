@@ -7,8 +7,8 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="calculadora",
-    version="0.0.1",
+    name="calculadora_test_pypi",
+    version="0.0.2",
     author="Homero Neto",
     author_email="homerobneto@hotmail.co.uk",
     description="retorna operações básicas",
