@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="calculadora",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Homero Neto",
+    author_email="homerobneto@hotmail.co.uk",
+    description="retorna operações básicas",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/bNetoH/simple-package-template/tree/desafio-dio-pypi-distr-pkg",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',

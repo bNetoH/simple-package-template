@@ -1,27 +1,32 @@
 # package_name
 
-Description. 
-The package package_name is used to:
-	- 
-	-
+Description.
+The package calculadora_test_pypi is used to:
+
+- performe basic calc functions
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install calculadora_test_pypi
 
 ```bash
-pip install package_name
+pip install calculadora_test_pypi
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from calculadora import operacao
+operacao.somar(a, b)
+operacao.subtrair(a, b)
+operacao.multiplicar(a, b)
+operacao.dividir(a, b)
 ```
 
 ## Author
-My_name
+
+Homero Barbosa
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
